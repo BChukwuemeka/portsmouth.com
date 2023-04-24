@@ -3,17 +3,19 @@ import MainHeader from '../../components/MainHeader'
 // import Programs from '../../components/Programs'
 import Testimonials from '../../components/Testimonials'
 import Values from '../../components/Values'
-import {heroTwo} from '../../components/Content/ContentData'
+import {heroOne} from '../../components/Content/ContentData'
 import './home.css'
 import Content from '../../components/Content/Content'
+import Form from '../../components/Form/Form'
 
 const Home = () => {
   return (
     <>
     <MainHeader />
-    <Content {...heroTwo} />
+    <Content {...heroOne} />
     <Values />
-    <FAQs />
+      <FAQs />
+      <Form inverse />
     <Testimonials />
     </>
   )

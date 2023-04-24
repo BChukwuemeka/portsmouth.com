@@ -338,6 +338,7 @@ video {
     filter: saturate(0.25);
     transition: var(--transition);
     border-radius: 20%;
+    margin-bottom: 2rem;
 }
 
 .values__image_ {
@@ -376,7 +377,7 @@ video {
 /*==================== FAQs component"s css start ====================*/
 
 .faqs__wrapper {
-    margin-top: 4rem;
+    margin: 4rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem 5rem;
@@ -490,6 +491,11 @@ video {
         top: 0;
     }
 
+
+    .overlay {
+        height: 56vh;
+    }
+
     .main__header-container { 
         gap: 0;
         
@@ -541,6 +547,19 @@ video {
         top: 0;
     }
 
+    .main__header-left {
+        text-align: center;
+    }
+
+
+
+
+    .main__header h3, .main__header p  {
+        display: none;
+    }
+
+
+
     video {
         top: 0;
 
@@ -554,11 +573,12 @@ video {
 
     .main__header-container h1{ 
         font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 3rem;
      }
 
      
     .main__header-container p {
-        font: 1em bold sans-serif;
         color: var(--color-primary);
     }
 

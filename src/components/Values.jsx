@@ -1,5 +1,5 @@
 import image from '../images/containerpics/images4.jpeg'
-import image_ from '../images/containerpics/images29.jpg'
+import image_ from '../images/containerpics/images9.jpeg'
 import {GiCutDiamond} from 'react-icons/gi'
 import SectionHead from '../components/SectionHead'
 import React, { useEffect } from 'react';
@@ -34,9 +34,13 @@ const Values = () => {
             <div className="container values__container" ref={ref}>
                 <div className="values__left">
                     <div className="values__image">
-                        <img src={image} alt="" />
+                      <img src={image} alt="" />
+                    </div>
+
+                    <div className="values__image">
                         <img src={image_} alt="" />
                     </div>
+                  
                     <div className="values__image_">
                         <img src={image_} alt="" />
                     </div>
@@ -44,7 +48,9 @@ const Values = () => {
                 <div className="values__right">
                     <SectionHead icon={<GiCutDiamond/>} title="Values"/>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione laboriosam sit, eveniet eligendi impedit!
+                        
+                      
+                      
                     </p>
 
                   <motion.div

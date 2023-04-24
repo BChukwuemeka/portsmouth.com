@@ -4,9 +4,9 @@ export const heroOne = {
 	topLine: {
 		text: 'Founded in 2002',
 	},
-	headline: "Connect to EVERYTHING God Has for Your Life",
-	description: 'God has a life full of Adventure waiting for YOU',
-	buttonLabel: 'Request Prayer',
+	headline: "The best practices",
+	description: 'Our clients have had the best experience working with us. What we do, we do well',
+	buttonLabel: 'Learn More',
 	imgStart: 'start',
     img : require('../../images/containerpics/images5.jpeg'),
 	start: 'true',

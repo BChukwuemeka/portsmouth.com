@@ -3,7 +3,7 @@ body {
   margin: 0;
   line-height: 1.7;
   overflow-x: hidden;
-  background: #3b4852 url('./images/bg_texture.png');
+  background: #e8e8e9 url('./images/bg_texture.png');
 }
 
 
@@ -28,7 +28,7 @@ body {
   --color-primary-variant: #347db1;
   --color-secondary: #557a95;
   --color-gray-100: #fdfdfd;
-  --color-gray-200: #1b1a1a;
+  --color-gray-200: #347db1;
   --color-gray-300: #86e9d5;
   --color-gray-400: #4b8176;
   --color-gray-500: #071c2f;
@@ -56,7 +56,7 @@ code {
     monospace;
 }
 
-h1, h2, h4, h5 {
+h1, h4, h5 {
   line-height: 1.2;
   color: var(--color-gray-100);
 }
@@ -67,6 +67,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+    color: var(--color-gray-500);
 }
 
 a {

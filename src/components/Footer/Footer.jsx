@@ -12,7 +12,8 @@ const Footer = () => {
                 <img src={Logo} alt="" />
             </Link>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, quisquam. Laboriosam assumenda excepturi, ipsam autem dolorum enim quo ut consequuntur!
+             
+            
             </p>
             <div className="footer__socials">
                   <a href="https://linkedin.com/" target="_blank" rel="noreferrer noopener"><FaLinkedin/></a>
@@ -25,8 +26,7 @@ const Footer = () => {
           <article>
             <h4>Permalinks</h4>
             <Link to="/about">About</Link>
-            <Link to="/plans">Plans</Link>
-            <Link to="/trainers">Trainers</Link>
+            <Link to="/plans">Get Quote</Link>
             <Link to="/gallery">Gallery</Link>
             <Link to="/contact">Contact</Link>
           </article>
@@ -46,7 +46,7 @@ const Footer = () => {
           </article>
         </div>
         <div className="footer__copyright">
-          <small>2023 Brich & Bez Services &copy; All Rights Reserved</small>
+          <small>Portsmouth Containers &copy; All Rights Reserved</small>
         </div>
       </footer>
   )

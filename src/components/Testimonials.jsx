@@ -49,8 +49,14 @@ const Testimonials = () => {
                         <h5>{name}</h5>
                     <small className="testimonial__title">{job}</small>
                     <div className="testimonials__btn-container">
-                        <button className="testimonials__btn" onClick={prevTestimonialHandler}><IoIosArrowDropleftCircle/></button>
-                        <button className="testimonials__btn" onClick={nextTestimonialHandler}><IoIosArrowDroprightCircle/></button>
+                      <button className="testimonials__btn" onClick={prevTestimonialHandler}>
+                          
+                          <IoIosArrowDropleftCircle />
+                      </button>
+
+                      <button className="testimonials__btn" onClick={nextTestimonialHandler}>
+                          <IoIosArrowDroprightCircle />
+                      </button>
                     </div>
                 </Card>
 
