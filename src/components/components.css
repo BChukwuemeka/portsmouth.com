@@ -646,6 +646,9 @@ video {
         width: 100%;
     }
 
+    .overlay {
+        height: 100vh;
+    }
 
 }
 
